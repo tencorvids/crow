@@ -1,0 +1,18 @@
+{
+  imports = [
+    ./bluetooth.nix
+    ./boot.nix
+    ./greeter.nix
+    ./hardware.nix
+    ./input.nix
+    ./locale.nix
+    ./network.nix
+    ./os.nix
+    ./security.nix
+    ./ssh.nix
+    ./time.nix
+    ./user.nix
+    ./xdg.nix
+    ./xserver.nix
+  ];
+}

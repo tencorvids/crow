@@ -1,0 +1,20 @@
+{
+  imports = [
+    ./bash.nix
+    ./bat.nix
+    ./btop.nix
+    ./clipboard.nix
+    ./direnv.nix
+    ./eza.nix
+    ./fd.nix
+    ./fzf.nix
+    ./git.nix
+    ./jq.nix
+    ./kitty.nix
+    ./lazygit.nix
+    ./neovim.nix
+    ./ripgrep.nix
+    ./starship.nix
+    ./tmux.nix
+  ];
+}

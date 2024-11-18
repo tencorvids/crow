@@ -1,0 +1,18 @@
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}: {
+  options.firefox.enable = lib.mkOption {
+    type = lib.types.bool;
+    default = false;
+    description = "Enable firefox.";
+  };
+
+  config = lib.mkIf config.firefox.enable {
+    home.packages = with pkgs; [
+      firefox
+    ];
+  };
+}

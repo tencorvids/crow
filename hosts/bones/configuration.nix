@@ -48,6 +48,7 @@
 
       ### User Module Imports ###
       imports = [
+        inputs.textfox.homeManagerModules.default
         inputs.spicetify-nix.homeManagerModules.default
         "${inputs.self}/modules/apps"
         "${inputs.self}/modules/dev"

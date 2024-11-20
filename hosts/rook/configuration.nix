@@ -1,6 +1,7 @@
 {
   inputs,
   settings,
+  hostname,
   ...
 }:
 {
@@ -37,6 +38,7 @@
     extraSpecialArgs = {
       settings = settings;
       inputs = inputs;
+      hostname = hostname;
     };
 
     users.${settings.username} = {
@@ -46,6 +48,7 @@
 
       ### User Module Imports ###
       imports = [
+        inputs.textfox.homeManagerModules.default
         inputs.spicetify-nix.homeManagerModules.default
         "${inputs.self}/modules/apps"
         "${inputs.self}/modules/dev"
@@ -65,8 +68,8 @@
       bat.enable = true;
       btop.enable = true;
       clipboard.enable = true;
-      eza.enable = true;
       direnv.enable = true;
+      eza.enable = true;
       fd.enable = true;
       fzf.enable = true;
       git.enable = true;

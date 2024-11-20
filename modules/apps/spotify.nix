@@ -13,6 +13,10 @@
   };
 
   config = lib.mkIf config.spotify.enable {
+    home.packages = with pkgs; [
+      spotify-player
+    ];
+
     nixpkgs.config.allowUnfreePredicate =
       pkg:
       builtins.elem (lib.getName pkg) [
@@ -26,7 +30,8 @@
         fullAppDisplay
         shuffle
       ];
-      theme = lib.mkForce inputs.spicetify-nix.legacyPackages.${pkgs.system}.themes.lucid;
+      theme = lib.mkForce inputs.spicetify-nix.legacyPackages.${pkgs.system}.themes.text;
     };
+
   };
 }

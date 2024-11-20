@@ -19,10 +19,6 @@
       initExtra = ''
         eval "$(starship init bash)"
         eval "$(direnv hook bash)"
-
-        if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-          tmux a -t main || exec tmux new -s main
-        fi
       '';
 
       shellAliases = {

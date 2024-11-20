@@ -23,6 +23,7 @@
   input.enable = true;
   locale.enable = true;
   network.enable = true;
+  nvidia.enable = true;
   os.enable = true;
   security.enable = true;
   ssh.enable = true;

@@ -7,6 +7,7 @@
     ./input.nix
     ./locale.nix
     ./network.nix
+    ./nvidia.nix
     ./os.nix
     ./security.nix
     ./ssh.nix

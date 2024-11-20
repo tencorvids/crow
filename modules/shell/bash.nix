@@ -30,11 +30,13 @@
 
         vi = "nvim";
         vim = "nvim";
-        cdvim = "cd ~/charon && nvim";
+        charon = "cd ~/charon && nvim";
 
-        cdnix = "cd ~/crow && nvim";
-        nix-switch = "sudo nixos-rebuild switch --flake ~/_#${hostname}";
-        nix-switch-update = "sudo nixos-rebuild switch --upgrade --flake ~/_#${hostname}";
+        crow = "cd ~/crow && nvim";
+        crow-switch = "sudo nixos-rebuild switch --flake ~/crow#${hostname}";
+        crow-update = "sudo nix flake update --flake ~/crow#${hostname}";
+        crow-switch-update = "sudo nixos-rebuild switch --upgrade --flake ~/crow#${hostname}";
+        crow-switch-full = "sudo nix-collect-garbage -d && sudo nixos-rebuild switch --flake ~/crow#${hostname}";
       };
     };
   };

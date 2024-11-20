@@ -88,8 +88,8 @@
       waybar.enable = true;
 
       ### Development Languages ###
-      go.enable = true;
-      javascript.enable = true;
+      # go.enable = true;
+      # javascript.enable = true;
     };
   };
 }

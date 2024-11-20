@@ -72,11 +72,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1732127308,
-        "narHash": "sha256-SLSl6Ram8IEnCqDW4VmeuKYXIbbuOvGIs5+DFaFLtHU=",
+        "lastModified": 1732127919,
+        "narHash": "sha256-d9WpCjt55R4o89C1FMH3mURbSLxicih9F2ws4iTpNvM=",
         "owner": "tencorvids",
         "repo": "charon",
-        "rev": "7737843687c311bdb304c28ea82f1cc4afe19b9e",
+        "rev": "0c811b55291d37760175c44b4ec4e808727bedc0",
         "type": "github"
       },
       "original": {

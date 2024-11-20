@@ -20,6 +20,21 @@
       enable = true;
 
       shortcut = "a";
+
+      extraConfig = ''
+        # Default termtype. If the rcfile sets $TERM, that overrides this value.
+        set -g default-terminal screen-256color
+
+        # scrollback size
+        set -g history-limit 10000
+
+        # set first window to index 1 (not 0) to map more to the keyboard layout
+        set -g base-index 1
+        setw -g pane-base-index 1
+
+        # pass through xterm keys
+        set -g xterm-keys on
+      '';
     };
   };
 }

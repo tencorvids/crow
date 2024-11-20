@@ -17,6 +17,14 @@
       spotify-player
     ];
 
+    programs.spotify-player = {
+      enable = true;
+
+      settings = {
+        client_id = "5ee98402c4c44b3d9bea27f99a1c5e44";
+      };
+    };
+
     nixpkgs.config.allowUnfreePredicate =
       pkg:
       builtins.elem (lib.getName pkg) [

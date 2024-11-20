@@ -19,14 +19,7 @@
     programs.tmux = {
       enable = true;
 
-      # Set the prefix key to Ctrl+a
-      prefix = "C-a";
-
-      # Additional configuration
-      extraConfig = ''
-        # Send prefix using the new key
-        bind C-a send-prefix
-      '';
+      shortcut = "a";
     };
   };
 }

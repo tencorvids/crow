@@ -20,7 +20,6 @@
         eval "$(starship init bash)"
         eval "$(direnv hook bash)"
       '';
-
       shellAliases = {
         cat = "bat";
 
@@ -33,10 +32,10 @@
         charon = "cd ~/charon && nvim";
 
         crow = "cd ~/crow && nvim";
-        crow-switch = "sudo nixos-rebuild switch --flake ~/crow#${hostname}";
-        crow-update = "sudo nix flake update --flake ~/crow#${hostname}";
-        crow-switch-update = "sudo nixos-rebuild switch --upgrade --flake ~/crow#${hostname}";
-        crow-switch-full = "sudo nix-collect-garbage -d && sudo nixos-rebuild switch --flake ~/crow#${hostname}";
+        crow-switch = "git -C ~/crow pull && sudo nixos-rebuild switch --flake ~/crow#${hostname}";
+        crow-update = "git -C ~/crow pull && sudo nix flake update --flake ~/crow#${hostname}";
+        crow-switch-update = "git -C ~/crow pull && sudo nixos-rebuild switch --upgrade --flake ~/crow#${hostname}";
+        crow-switch-full = "git -C ~/crow pull && sudo nix-collect-garbage -d && sudo nixos-rebuild switch --flake ~/crow#${hostname}";
       };
     };
   };

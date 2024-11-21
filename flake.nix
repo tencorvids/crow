@@ -13,8 +13,7 @@
       url = "github:Gerg-L/spicetify-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    # textfox.url = "github:adriankarlen/textfox";
-    textfox.url = "github:tencorvids/textfox";
+    textfox.url = "github:adriankarlen/textfox";
   };
 
   outputs =

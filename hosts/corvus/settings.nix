@@ -11,5 +11,5 @@
   homeDir = "/home/rew";
   stateVersion = "24.05";
 
-  theme = "skull";
+  theme = "skull-wide";
 }

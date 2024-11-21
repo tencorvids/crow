@@ -81,6 +81,7 @@
       ripgrep.enable = true;
       starship.enable = true;
       tmux.enable = true;
+      yazi.enable = true;
 
       ### Window Manager ###
       fuzzel.enable = true;

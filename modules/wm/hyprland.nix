@@ -19,6 +19,9 @@
       pavucontrol
       pamixer
       xwaylandvideobridge
+      grim
+      slurp
+      swappy
     ];
 
     home.sessionVariables = {
@@ -110,6 +113,11 @@
           ",XF86AudioNext,exec, playerctl next"
           ",XF86AudioPrev,exec, playerctl previous"
           ",XF86AudioStop, exec, playerctl stop"
+
+          # tools
+          ",Print, exec, grim -g \"$(slurp)\" - | wl-copy"
+          "CTRL,Print, exec, grim - | wl-copy"
+          "$mainMod,Print, exec, grim -g \"$(slurp)\" - | wl-copy && wl-paste | swappy -f -"
         ];
       };
     };

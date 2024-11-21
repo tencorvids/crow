@@ -35,7 +35,7 @@
         crow = "cd ~/crow && nvim";
         crow-switch = "git -C ~/crow pull && sudo nixos-rebuild switch --flake ~/crow#${hostname}";
         crow-update = "git -C ~/crow pull && sudo nix flake update --flake ~/crow";
-        crow-switch-update = "git -C ~/crow pull && sudo nixos-rebuild switch --upgrade --flake ~/crow#${hostname}";
+        crow-switch-update = "git -C ~/crow pull && sudo nix flake update --flake ~/crow && sudo nixos-rebuild switch --flake ~/crow#${hostname}";
         crow-switch-full = "git -C ~/crow pull && sudo nix-collect-garbage -d && sudo nixos-rebuild switch --flake ~/crow#${hostname}";
       };
     };

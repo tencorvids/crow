@@ -4,7 +4,8 @@
   pkgs,
   settings,
   ...
-}: {
+}:
+{
   options.os.enable = lib.mkOption {
     type = lib.types.bool;
     default = false;
@@ -21,7 +22,7 @@
         warn-dirty = false;
         log-lines = 50;
         sandbox = "relaxed";
-        trusted-users = ["${settings.username}"];
+        trusted-users = [ "${settings.username}" ];
       };
       gc = {
         automatic = false;
@@ -30,10 +31,10 @@
       };
     };
 
-    nixpkgs = {
-      config = {
-        allowUnfree = true;
-      };
-    };
+    # nixpkgs = {
+    #   config = {
+    #     allowUnfree = true;
+    #   };
+    # };
   };
 }

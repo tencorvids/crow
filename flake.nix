@@ -36,6 +36,18 @@
         builtins.filter (name: entries.${name} == "directory") (builtins.attrNames entries);
 
       hosts = getHosts ./hosts;
+
+      pkgsForSystem =
+        system:
+        import nixpkgs {
+          inherit system;
+          overlays = [
+            charon.overlay
+          ];
+          config = {
+            allowUnfree = true;
+          };
+        };
     in
     {
       nixosConfigurations = builtins.listToAttrs (
@@ -50,11 +62,11 @@
             name = hostname;
             value = nixpkgs.lib.nixosSystem {
               inherit system;
-              modules = [
-                ./hosts/${hostname}/configuration.nix
-              ];
+              modules = [ "${hostDir}/configuration.nix" ];
+              pkgs = pkgsForSystem system;
               specialArgs = {
                 inherit hostname settings;
+                pkgs = pkgsForSystem system;
                 inputs = {
                   inherit
                     self

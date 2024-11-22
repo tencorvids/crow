@@ -18,7 +18,9 @@
     textfox = {
       enable = true;
       profile = "rew";
-      config = { };
+      config = {
+        displayNavButtons = true;
+      };
     };
   };
 }

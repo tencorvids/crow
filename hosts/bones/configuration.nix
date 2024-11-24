@@ -60,7 +60,9 @@
       aseprite.enable = true;
       discord.enable = true;
       firefox.enable = true;
+      gimp.enable = true;
       godot.enable = true;
+      inkscape.enable = true;
       minecraft.enable = true;
       spotify.enable = true;
       steam.enable = true;

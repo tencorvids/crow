@@ -59,6 +59,7 @@
       ### User Applications ###
       discord.enable = true;
       firefox.enable = true;
+      godot.enable = true;
       minecraft.enable = true;
       spotify.enable = true;
       steam.enable = true;

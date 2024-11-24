@@ -32,7 +32,7 @@
         XDG_SESSION_TYPE = "wayland";
         GBM_BACKEND = "nvidia-drm";
         __GLX_VENDOR_LIBRARY_NAME = "nvidia";
-        __GL_GSYNC_ALLOWED = "1";
+        __GL_GSYNC_ALLOWED = "0";
         __GL_VRR_ALLOWED = "0";
         QT_AUTO_SCREEN_SCALE_FACTOR = "1";
         QT_WAYLAND_DISABLE_WINDOWDECORATION = "1";
@@ -40,7 +40,6 @@
       };
       sessionVariables = {
         NIXOS_OZONE_WL = "1";
-        WLR_NO_HARDWARE_CURSORS = "1";
       };
 
     };

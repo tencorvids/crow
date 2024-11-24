@@ -1,5 +1,6 @@
 {
   imports = [
+    ./aseprite.nix
     ./discord.nix
     ./firefox.nix
     ./godot.nix

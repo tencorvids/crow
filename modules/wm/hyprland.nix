@@ -128,6 +128,7 @@
 
         windowrulev2 = [
           "tile,class:^(Godot)$"
+          "tile,class:^(Aseprite)$"
         ];
       };
     };

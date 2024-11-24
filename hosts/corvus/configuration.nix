@@ -58,6 +58,7 @@
       ];
 
       ### User Applications ###
+      aseprite.enable = true;
       discord.enable = true;
       firefox.enable = true;
       godot.enable = true;

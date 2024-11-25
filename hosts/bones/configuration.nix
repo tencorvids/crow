@@ -91,10 +91,6 @@
       hyprland.enable = true;
       stylix.enable = true;
       waybar.enable = true;
-
-      ### Development Languages ###
-      # go.enable = true;
-      # javascript.enable = true;
     };
   };
 }

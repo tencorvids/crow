@@ -66,6 +66,10 @@
           "$mainMod, up, movefocus, u"
           "$mainMod, down, movefocus, d"
 
+          # tab groups
+          "$mainMod, T, togglegroup"
+          "$mainMod, Tab, changegroupactive, f"
+
           # switch workspace
           "$mainMod, 1, workspace, 1"
           "$mainMod, 2, workspace, 2"

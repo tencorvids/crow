@@ -1,6 +1,8 @@
 {
   imports = [
     ./aseprite.nix
+    ./bitwig.nix
+    ./davinci.nix
     ./discord.nix
     ./firefox.nix
     ./gimp.nix

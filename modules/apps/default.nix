@@ -9,6 +9,7 @@
     ./godot.nix
     ./inkscape.nix
     ./minecraft.nix
+    ./obsidian.nix
     ./spotify.nix
     ./steam.nix
   ];

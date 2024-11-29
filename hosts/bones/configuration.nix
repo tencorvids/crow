@@ -66,6 +66,7 @@
       godot.enable = true;
       inkscape.enable = true;
       minecraft.enable = true;
+      obsidian.enable = true;
       spotify.enable = true;
       steam.enable = true;
 

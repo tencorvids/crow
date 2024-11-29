@@ -38,10 +38,10 @@
         crow-switch-update = "git -C ~/crow pull && sudo nix flake update --flake ~/crow && sudo nixos-rebuild switch --flake ~/crow#${hostname}";
         crow-switch-full = "git -C ~/crow pull && sudo nix-collect-garbage -d && sudo nix flake update --flake ~/crow && sudo nixos-rebuild switch --flake ~/crow#${hostname}";
 
-        c-s = "crow-switch";
-        c-u = "crow-update";
-        c-s-u = "crow-switch-update";
-        c-s-f = "crow-switch-full";
+        cs = "crow-switch";
+        cu = "crow-update";
+        csu = "crow-switch-update";
+        csf = "crow-switch-full";
       };
     };
   };

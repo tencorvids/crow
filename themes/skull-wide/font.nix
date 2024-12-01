@@ -2,19 +2,16 @@
 {
   serif = {
     name = "Geist";
-    # package = pkgs.nerdfonts.override { fonts = [ "GeistMono" ]; };
     package = pkgs.nerd-fonts.geist-mono;
   };
 
   sansSerif = {
     name = "Geist";
-    # package = pkgs.nerdfonts.override { fonts = [ "GeistMono" ]; };
     package = pkgs.nerd-fonts.geist-mono;
   };
 
   monospace = {
     name = "Geist";
-    # package = pkgs.nerdfonts.override { fonts = [ "GeistMono" ]; };
     package = pkgs.nerd-fonts.geist-mono;
   };
 

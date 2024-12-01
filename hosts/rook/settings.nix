@@ -9,7 +9,7 @@
   name = "rew";
   email = "rew@tencorvids.com";
   homeDir = "/home/rew";
-  stateVersion = "24.05";
+  stateVersion = "24.11";
 
   theme = "skull";
 }

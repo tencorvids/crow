@@ -10,6 +10,7 @@
     ./inkscape.nix
     ./minecraft.nix
     ./nemo.nix
+    ./obs.nix
     ./obsidian.nix
     ./spotify.nix
     ./steam.nix

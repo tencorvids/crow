@@ -68,6 +68,7 @@
       inkscape.enable = true;
       minecraft.enable = true;
       nemo.enable = true;
+      obs.enable = true;
       obsidian.enable = true;
       spotify.enable = true;
       steam.enable = true;

@@ -14,5 +14,6 @@
     ./obsidian.nix
     ./spotify.nix
     ./steam.nix
+    ./vlc.nix
   ];
 }

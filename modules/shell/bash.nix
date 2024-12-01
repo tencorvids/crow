@@ -17,8 +17,10 @@
       enableCompletion = true;
 
       initExtra = ''
-        eval "$(starship init bash)"
-        eval "$(direnv hook bash)"
+            eval "$(starship init bash)"
+            eval "$(direnv hook bash)"
+
+        	export MANPAGER="nvim +Man!"
       '';
 
       shellAliases = {

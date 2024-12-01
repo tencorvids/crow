@@ -1,18 +1,18 @@
 { pkgs }:
 {
   serif = {
-    name = "GeistMono";
-    package = pkgs.nerd-fonts.geist-mono;
+    name = "JetBrainsMono";
+    package = pkgs.nerd-fonts.jetbrains-mono;
   };
 
   sansSerif = {
-    name = "GeistMono";
-    package = pkgs.nerd-fonts.geist-mono;
+    name = "JetBrainsMono";
+    package = pkgs.nerd-fonts.jetbrains-mono;
   };
 
   monospace = {
-    name = "GeistMono";
-    package = pkgs.nerd-fonts.geist-mono;
+    name = "JetBrainsMono";
+    package = pkgs.nerd-fonts.jetbrains-mono;
   };
 
   emoji = {

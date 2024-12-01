@@ -1,17 +1,17 @@
 { pkgs }:
 {
   serif = {
-    name = "Geist";
+    name = "GeistMono";
     package = pkgs.nerd-fonts.geist-mono;
   };
 
   sansSerif = {
-    name = "Geist";
+    name = "GeistMono";
     package = pkgs.nerd-fonts.geist-mono;
   };
 
   monospace = {
-    name = "Geist";
+    name = "GeistMono";
     package = pkgs.nerd-fonts.geist-mono;
   };
 

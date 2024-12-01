@@ -15,6 +15,7 @@
     ./neovim.nix
     ./ripgrep.nix
     ./starship.nix
+    ./tldr.nix
     ./tmux.nix
     ./yazi.nix
   ];

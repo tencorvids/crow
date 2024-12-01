@@ -88,6 +88,7 @@
       neovim.enable = true;
       ripgrep.enable = true;
       starship.enable = true;
+      tldr.enable = true;
       tmux.enable = true;
       yazi.enable = true;
 

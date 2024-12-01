@@ -1,7 +1,7 @@
 {
   system = "x86_64-linux";
   cpu = "intel"; # Options: "intel", "amd"
-  gpu = "intel"; # Options: "nvidia", "intel", "amd"
+  gpu = "nvidia"; # Options: "nvidia", "intel", "amd"
 
   username = "rew";
   timezone = "America/New_York";

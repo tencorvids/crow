@@ -58,8 +58,8 @@
 
       ### User Applications ###
       aseprite.enable = true;
-      bitwig.enable = true;
-      davinci.enable = true;
+      bitwig.enable = false;
+      davinci.enable = false;
       discord.enable = true;
       firefox.enable = true;
       gimp.enable = true;

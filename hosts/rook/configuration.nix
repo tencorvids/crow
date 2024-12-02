@@ -65,6 +65,7 @@
       gimp.enable = true;
       godot.enable = true;
       inkscape.enable = true;
+      mime.enable = true;
       minecraft.enable = true;
       nemo.enable = true;
       obsidian.enable = true;

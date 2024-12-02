@@ -8,6 +8,7 @@
     ./gimp.nix
     ./godot.nix
     ./inkscape.nix
+    ./mime.nix
     ./minecraft.nix
     ./nemo.nix
     ./obs.nix

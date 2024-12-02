@@ -3,7 +3,8 @@
   lib,
   pkgs,
   ...
-}: {
+}:
+{
   options.xdg.enable = lib.mkOption {
     type = lib.types.bool;
     default = false;

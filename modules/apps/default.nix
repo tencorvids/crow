@@ -15,5 +15,6 @@
     ./spotify.nix
     ./steam.nix
     ./vlc.nix
+    ./zathura.nix
   ];
 }

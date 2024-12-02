@@ -71,6 +71,7 @@
       spotify.enable = true;
       steam.enable = true;
       vlc.enable = true;
+      zathura.enable = true;
 
       ### Shell Tools ###
       bash.enable = true;

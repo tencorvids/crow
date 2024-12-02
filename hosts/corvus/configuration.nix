@@ -87,6 +87,7 @@
       jq.enable = true;
       kitty.enable = true;
       lazygit.enable = true;
+      manga.enable = true;
       neovim.enable = true;
       ripgrep.enable = true;
       starship.enable = true;

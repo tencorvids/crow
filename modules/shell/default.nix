@@ -12,6 +12,7 @@
     ./jq.nix
     ./kitty.nix
     ./lazygit.nix
+    ./manga.nix
     ./neovim.nix
     ./ripgrep.nix
     ./starship.nix

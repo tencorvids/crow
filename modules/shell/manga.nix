@@ -14,6 +14,7 @@
   config = lib.mkIf config.manga.enable {
     home.packages = with pkgs; [
       mangal
+      hakuneko
     ];
   };
 }

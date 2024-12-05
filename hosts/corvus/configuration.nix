@@ -52,7 +52,6 @@
         inputs.textfox.homeManagerModules.default
         inputs.spicetify-nix.homeManagerModules.default
         "${inputs.self}/modules/apps"
-        "${inputs.self}/modules/dev"
         "${inputs.self}/modules/shell"
         "${inputs.self}/modules/wm"
       ];

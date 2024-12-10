@@ -33,6 +33,7 @@
         vi = "nvim";
         vim = "nvim";
         charon = "cd ~/charon && nvim";
+        tome = "cd ~/tome && nvim";
 
         crow = "cd ~/crow && nvim";
         crow-switch = "git -C ~/crow pull && sudo nixos-rebuild switch --flake ~/crow#${hostname}";

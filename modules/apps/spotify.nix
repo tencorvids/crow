@@ -26,7 +26,7 @@
         fullAppDisplay
         shuffle
       ];
-      theme = lib.mkForce inputs.spicetify-nix.legacyPackages.${pkgs.system}.themes.text;
+      theme = lib.mkForce inputs.spicetify-nix.legacyPackages.${pkgs.system}.themes.defaultDynamic;
     };
 
   };

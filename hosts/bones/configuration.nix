@@ -46,17 +46,8 @@
       home.username = settings.username;
       home.homeDirectory = settings.homeDir;
 
-      ### User Module Imports ###
-      imports = [
-        inputs.textfox.homeManagerModules.default
-        inputs.spicetify-nix.homeManagerModules.default
-        "${inputs.self}/modules/apps"
-        "${inputs.self}/modules/shell"
-        "${inputs.self}/modules/wm"
-      ];
-
       ### User Applications ###
-      aseprite.enable = true;
+      aseprite.enable = false;
       bitwig.enable = false;
       davinci.enable = false;
       discord.enable = true;
@@ -67,6 +58,7 @@
       mime.enable = true;
       minecraft.enable = true;
       nemo.enable = true;
+      obs.enable = true;
       obsidian.enable = true;
       spotify.enable = true;
       steam.enable = true;

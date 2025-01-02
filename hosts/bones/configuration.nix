@@ -46,6 +46,15 @@
       home.username = settings.username;
       home.homeDirectory = settings.homeDir;
 
+      ### User Module Imports ###
+      imports = [
+        inputs.textfox.homeManagerModules.default
+        inputs.spicetify-nix.homeManagerModules.default
+        "${inputs.self}/modules/apps"
+        "${inputs.self}/modules/shell"
+        "${inputs.self}/modules/wm"
+      ];
+
       ### User Applications ###
       aseprite.enable = false;
       bitwig.enable = false;

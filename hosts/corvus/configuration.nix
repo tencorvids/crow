@@ -63,7 +63,7 @@
       discord.enable = true;
       firefox.enable = true;
       gimp.enable = true;
-      godot.enable = true;
+      godot.enable = false;
       inkscape.enable = true;
       mime.enable = true;
       minecraft.enable = true;
